@@ -1,0 +1,16 @@
+.caché {
+    display: none;
+}
+
+.sac ul li {
+    list-style: none;
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+.sac ul li span {
+    margin-left: 20px;
+}
+

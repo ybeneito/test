@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idle waz</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="sac">
+        <ul>
+          <h1>Ressources</h1>
+          <li>
+            <h2>Buches de bois</h2>
+            <span id="nbBuches">0</span>
+          </li>
+          <li>
+            <h2>Cailloux</h2>
+            <span id="">0</span>
+          </li>
+          <li>
+            <h2>charbon</h2>
+            <span id="">0</span>
+          </li>
+        </ul>
+      </div>
+      <di class="actions">
+        <button onclick="hacheEnBois.utiliser(sapin); addBuches()">Utiliser</button>
+        <button
+          onclick="
+            hacheEnBois.équiper()"
+        >
+          Équiper
+        </button>
+        <button onclick="sapin.rencontre()">Pop Arbre</button>
+      </di>
+      <div class="affichage">
+        <div class="compteur"></div>
+        <div class="arbre">
+          <img id="arbre1" src="img/chene.png" alt="" srcset="" class="caché arbres" />
+          <img id="arbre2" src="img/bouleau.png" alt="" srcset="" class="caché arbres"/>
+          <img id="arbre3" src="img/sapin.png" alt="" srcset="" class="caché arbres" />
+        </div>
+        <div class="outils"></div>
+      </div>
+    </main>
+    <script src="js/idle.js"></script>
+  </body>
+</html>
